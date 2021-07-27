@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://www.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vue Vite</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.18/dist/index.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-analytics.js"></script>
+  <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyB4oh7uhDTarBt_5vKqNagfGlDHTbgOe3U",
+        authDomain: "front-end-bootcamp-93-ec182.firebaseapp.com",
+        projectId: "front-end-bootcamp-93-ec182",
+        storageBucket: "front-end-bootcamp-93-ec182.appspot.com",
+        messagingSenderId: "341479095133",
+        appId: "1:341479095133:web:1f90347b0945bfa20506b4",
+        measurementId: "G-5FZ81MJCJZ"
+      };
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+  </script>
+</head>
+
+<body>
+  <canvas id="confetti"></canvas>
+  <main app></main>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
