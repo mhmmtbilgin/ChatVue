@@ -86,7 +86,7 @@
 </template>
 
 <script>
-import { reactive } from "vue";
+import {reactive} from "vue";
 export default {
   emit: ["signin"],
   setup() {
@@ -100,3 +100,4 @@ export default {
   },
 };
 </script>
+

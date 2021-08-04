@@ -84,6 +84,15 @@ export default {
 .page-header{
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: $blue;
+  min-height: 50px;
+  margin: 0px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  color: $white;
     
 }
 .signin {
@@ -91,6 +100,7 @@ export default {
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  margin: 50px;
 
   &__line {
     margin: 8px 0;
@@ -98,14 +108,14 @@ export default {
 
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: stretch;
+    justify-content: stretch;
   }
 
   &__label {
     margin: 8px 0;
     padding: 0;
-
+    color:$white;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -118,7 +128,7 @@ export default {
   &__emoji-label {
     margin: 8px 0;
     padding: 0;
-
+    color:$white;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -135,7 +145,6 @@ export default {
   &__input {
     margin: 0;
     padding: 8px 16px;
-
     border: 1px solid $signin-border;
     border-radius: 4px;
   }

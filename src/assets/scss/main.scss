@@ -18,7 +18,7 @@ html, body {
   align-items: stretch;
   justify-content: center;
 
-  background-color: $main-bgcolor;
+  background-color: $black;
 
 	font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -27,7 +27,7 @@ html, body {
 main {
   flex-grow: 1;
 
-  max-width: 800px;
+  max-width: 500px;
 
   display: flex;
   flex-direction: column;

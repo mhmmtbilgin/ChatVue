@@ -18,8 +18,9 @@ $button-hover: $blue;
 
 $signin-border: $black;
 $signin-emoji-hover: $blue;
-$button-bgcolor: $black;
-$button-bgcolor-hover: $blue;
+$button-bgcolor: $blue;
+$button-bgcolor-hover: darken($blue, 20%);
+
 
 $message-bgcolor: #f0f0f0;
 $message-item-bgcolor: $white;
